@@ -1,0 +1,15 @@
+Demonstrate and implement the concept of arrays and linked list
+Demonstrate and implement the concept of stacks and queues
+Apply the concept of arrays and linked list to stacks and queues
+Construct a binary tree for a given data set
+Insert and delete nodes in a binary tree
+Perform traversal operations on the binary tree.
+Demonstrate and implement the queue data structure
+Explain different types of queues.
+List applications that uses queues
+Implement the graph with its different representations.
+Perform  DFS and BFS traversal on a graph
+Compare and contrast DFS and BFS traversal on a graph
+Implement various sorting algorithms
+Compare the performances of various sorting algorithms
+Select appropriate sorting techniques for a given situation.

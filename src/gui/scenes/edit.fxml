@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.EditController">
+    <children>
+        <HBox>
+            <children>
+                <Label fx:id="numLabel" onMouseClicked="#nextClicked" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </Label>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label fx:id="skipWarning" textFill="#00baff" HBox.hgrow="NEVER">
+                    <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="8.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Label>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Skip to Number" HBox.hgrow="NEVER">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="skipText" prefHeight="26.0" prefWidth="37.0" HBox.hgrow="NEVER">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </TextField>
+                <Button fx:id="skipButton" mnemonicParsing="false" onAction="#skipButtonClicked" text="Go" HBox.hgrow="NEVER">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </Button>
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="10.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label prefHeight="27.0" prefWidth="120.0" text="Statement">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </Label>
+                <TextArea fx:id="questionText" editable="false" prefHeight="124.0" prefWidth="200.0" wrapText="true" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </TextArea>
+            </children>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="110.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label prefHeight="27.0" prefWidth="120.0" text="Cognitive Level">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </Label>
+                <TextField fx:id="levelText" editable="false" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </TextField>
+            </children>
+        </HBox>
+        <HBox VBox.vgrow="ALWAYS" fx:id="slotBox">
+            <children>
+                <HBox HBox.hgrow="ALWAYS">
+                    <children>
+                        <Label prefHeight="27.0" prefWidth="120.0" text="Slot Connector">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </HBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </padding>
+                        </Label>
+                        <TextField fx:id="slotConnector" editable="false" prefHeight="27.0" prefWidth="170.0" HBox.hgrow="ALWAYS">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </HBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </padding>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox HBox.hgrow="ALWAYS">
+                    <children>
+                        <Label prefWidth="120.0" text="Slot Indicator">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </HBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </padding>
+                        </Label>
+                        <TextField fx:id="slotIndicator" editable="false" prefHeight="27.0" prefWidth="150.0" HBox.hgrow="ALWAYS">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </HBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </padding>
+                        </TextField>
+                    </children>
+                </HBox>
+            </children>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="310.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label prefWidth="120.0" text="Relation">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </Label>
+                <TextField fx:id="relationText" editable="false" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </TextField>
+            </children>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="330.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label prefWidth="120.0" text="Concepts">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </Label>
+                <TextArea fx:id="conceptText" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" HBox.hgrow="SOMETIMES">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </TextArea>
+            </children>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="343.0" VBox.vgrow="NEVER">
+            <children>
+                <ButtonBar prefHeight="25.0" prefWidth="604.0" HBox.hgrow="ALWAYS">
+                    <buttons>
+                        <Region prefHeight="25.0" prefWidth="626.0" />                  
+                        <Button fx:id="backButton" layoutX="178.0" layoutY="10.0" mnemonicParsing="false" onAction="#backClicked" text="Back">
+                            <padding>
+                                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                            </padding>
+                        </Button>
+                        <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextClicked" text="Next">
+                            <padding>
+                                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                            </padding>
+                        </Button>
+                        <Button fx:id="viewButton" layoutX="506.0" layoutY="10.0" mnemonicParsing="false" onAction="#viewClicked" text="Evaluate">
+                            <padding>
+                                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                            </padding>
+                        </Button>
+                        <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitClicked" text="Exit">
+                            <padding>
+                                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                            </padding>
+                        </Button>
+                        <Region layoutX="200.0" layoutY="10.0" prefHeight="25.0" />
+                    </buttons>
+                </ButtonBar>
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </HBox>
+        <!-- Tester only-->
+        <HBox fx:id="testerControls" layoutX="10.0" layoutY="343.0" VBox.vgrow="NEVER">
+            <children>
+                <ButtonBar prefHeight="25.0" prefWidth="604.0" HBox.hgrow="ALWAYS">
+                    <buttons>
+                        <Region prefHeight="25.0" prefWidth="626.0" />
+<!--                        <Button fx:id="conMatButton" mnemonicParsing="false" onAction="#openConMat" 
+                                wrapText="true" text="Confusion Matrix">
+                            <padding>
+                                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                            </padding>
+                        </Button>-->
+                        <Button fx:id="qAlignButton" mnemonicParsing="false" onAction="#openQAlignment" 
+                                wrapText="true" text="Q-Alignment">
+                            <padding>
+                                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                            </padding>
+                        </Button>
+                        <Region layoutX="200.0" layoutY="10.0" prefHeight="25.0" />
+                    </buttons>
+                </ButtonBar>
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </HBox>
+        <!--Tester only ends-->
+    </children>
+</VBox>

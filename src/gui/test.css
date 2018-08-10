@@ -1,0 +1,310 @@
+/*:root {
+  red1: #FF9897;
+  red2: #FF6966;
+  red3: #FF2D25;
+  red4: #D41002;
+  red5: #790500;
+  red6: #480200;
+  blue1: #C5D9E2;
+  blue2: #83C6E1;
+  blue3: #54B5E0;
+  blue4: #06A2DD;
+  blue5: #2072BB;
+  blue6: #005B9A;
+}
+*/
+graph{        
+	padding: 20px, 20px;
+}
+ /*Concept not in Syllabus and Question not asked.*/
+node {        
+	size-mode: fit;
+	shape:rounded-box;
+	text-style: bold;
+	text-color: white;
+	text-size:13;
+	fill-image: url('img/blackblack.png');
+	fill-mode: image-scaled;
+	padding: 5px, 4px;
+	text-offset: 0px, 5px;
+	/*text-alignment: under;*/
+	
+/*	text-background-mode: rounded-box;
+	text-background-color: #222C;
+*/	
+}
+
+edge {
+	shape:cubic-curve;
+	fill-color:grey;
+}
+
+edge.relation{
+    fill-color: #F005;
+}
+
+node.LO{
+	fill-mode: image-scaled; 
+	fill-image: url('img/4black.png');
+}
+
+node.LOQ{
+	fill-mode: image-scaled; 
+	fill-image: url('img/44.png');
+}
+
+node.nLOQ{
+	fill-mode: image-scaled; 
+	fill-image: url('img/black4.png');
+}
+
+
+/*LO CogLevel*/
+node.oneblack{
+	fill-mode: image-scaled; 
+	fill-image: url('img/1black.png');
+}
+
+node.twoblack{
+	fill-mode: image-scaled; 
+	fill-image: url('img/2black.png');
+}
+
+node.threeblack{
+	fill-mode: image-scaled; 
+	fill-image: url('img/3black.png');
+}
+
+node.fourblack{
+	fill-mode: image-scaled; 
+	fill-image: url('img/4black.png');
+}
+
+node.fiveblack{
+	fill-mode: image-scaled; 
+	fill-image: url('img/5black.png');
+}
+
+node.sixblack{
+	fill-mode: image-scaled; 
+	fill-image: url('img/6black.png');
+}
+
+/*Q CogLevel*/
+
+node.blackone{
+	fill-mode: image-scaled; 
+	fill-image: url('img/black1.png');
+}
+
+node.blacktwo{
+	fill-mode: image-scaled; 
+	fill-image: url('img/black2.png');
+}
+
+node.blackthree{
+	fill-mode: image-scaled; 
+	fill-image: url('img/black3.png');
+}
+
+node.blackfour{
+	fill-mode: image-scaled; 
+	fill-image: url('img/black4.png');
+}
+
+node.blackfive{
+	fill-mode: image-scaled; 
+	fill-image: url('img/black5.png');
+}
+
+node.blacksix{
+	fill-mode: image-scaled; 
+	fill-image: url('img/black6.png');
+}
+
+/*LOQ CogLevel*/
+/*LO 1*/
+node.oneone{
+	fill-mode: image-scaled; 
+	fill-image: url('img/11.png');
+}
+
+node.onetwo{
+	fill-mode: image-scaled; 
+	fill-image: url('img/12.png');
+}
+
+node.onethree{
+	fill-mode: image-scaled; 
+	fill-image: url('img/13.png');
+}
+
+node.onefour{
+	fill-mode: image-scaled; 
+	fill-image: url('img/14.png');
+}
+
+node.onefive{
+	fill-mode: image-scaled; 
+	fill-image: url('img/15.png');
+}
+
+node.onesix{
+	fill-mode: image-scaled; 
+	fill-image: url('img/16.png');
+}
+
+/*LO 2*/
+node.twoone{
+	fill-mode: image-scaled; 
+	fill-image: url('img/21.png');
+}
+
+node.twotwo{
+	fill-mode: image-scaled; 
+	fill-image: url('img/22.png');
+}
+
+node.twothree{
+	fill-mode: image-scaled; 
+	fill-image: url('img/23.png');
+}
+
+node.twofour{
+	fill-mode: image-scaled; 
+	fill-image: url('img/24.png');
+}
+
+node.twofive{
+	fill-mode: image-scaled; 
+	fill-image: url('img/25.png');
+}
+
+node.twosix{
+	fill-mode: image-scaled; 
+	fill-image: url('img/26.png');
+}
+
+/*LO 3*/
+node.threeone{
+	fill-mode: image-scaled; 
+	fill-image: url('img/31.png');
+}
+
+node.threetwo{
+	fill-mode: image-scaled; 
+	fill-image: url('img/32.png');
+}
+
+node.threethree{
+	fill-mode: image-scaled; 
+	fill-image: url('img/33.png');
+}
+
+node.threefour{
+	fill-mode: image-scaled; 
+	fill-image: url('img/34.png');
+}
+
+node.threefive{
+	fill-mode: image-scaled; 
+	fill-image: url('img/35.png');
+}
+
+node.threesix{
+	fill-mode: image-scaled; 
+	fill-image: url('img/36.png');
+}
+
+/*LO 4*/
+node.fourone{
+	fill-mode: image-scaled; 
+	fill-image: url('img/41.png');
+}
+
+node.fourtwo{
+	fill-mode: image-scaled; 
+	fill-image: url('img/42.png');
+}
+
+node.fourthree{
+	fill-mode: image-scaled; 
+	fill-image: url('img/43.png');
+}
+
+node.fourfour{
+	fill-mode: image-scaled; 
+	fill-image: url('img/44.png');
+}
+
+node.fourfive{
+	fill-mode: image-scaled; 
+	fill-image: url('img/45.png');
+}
+
+node.foursix{
+	fill-mode: image-scaled; 
+	fill-image: url('img/46.png');
+}
+
+/*LO 5*/
+node.fiveone{
+	fill-mode: image-scaled; 
+	fill-image: url('img/51.png');
+}
+
+node.fivetwo{
+	fill-mode: image-scaled; 
+	fill-image: url('img/52.png');
+}
+
+node.fivethree{
+	fill-mode: image-scaled; 
+	fill-image: url('img/53.png');
+}
+
+node.fivefour{
+	fill-mode: image-scaled; 
+	fill-image: url('img/54.png');
+}
+
+node.fivefive{
+	fill-mode: image-scaled; 
+	fill-image: url('img/55.png');
+}
+
+node.fivesix{
+	fill-mode: image-scaled; 
+	fill-image: url('img/56.png');
+}
+
+/*LO 6*/
+node.sixone{
+	fill-mode: image-scaled; 
+	fill-image: url('img/61.png');
+}
+
+node.sixtwo{
+	fill-mode: image-scaled; 
+	fill-image: url('img/62.png');
+}
+
+node.sixthree{
+	fill-mode: image-scaled; 
+	fill-image: url('img/63.png');
+}
+
+node.sixfour{
+	fill-mode: image-scaled; 
+	fill-image: url('img/64.png');
+}
+
+node.sixfive{
+	fill-mode: image-scaled; 
+	fill-image: url('img/65.png');
+}
+
+node.sixsix{
+	fill-mode: image-scaled; 
+	fill-image: url('img/66.png');
+}

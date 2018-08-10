@@ -1,0 +1,1190 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K#"
+     xml:base="http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K"
+     xmlns:webprotege="http://protege.stanford.edu/webprotege/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <webprotege:revision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</webprotege:revision>
+        <webprotege:revision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</webprotege:revision>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Jun 29, 2015 12:51:13 PM</dc:date>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology was generated from an ontology revision in WebProtege http://webprotege.stanford.edu</rdfs:comment>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WebProtege</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nirajftw</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- #hasApplication -->
+
+    <owl:ObjectProperty rdf:about="#hasApplication">
+        <rdfs:label>hasApplication</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- #hasOperation -->
+
+    <owl:ObjectProperty rdf:about="#hasOperation">
+        <rdfs:label>hasOperation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- #hasRepresentation -->
+
+    <owl:ObjectProperty rdf:about="#hasRepresentation">
+        <rdfs:label>hasRepresentation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- #isA -->
+
+    <owl:ObjectProperty rdf:about="#isA">
+        <rdfs:label>isA</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- #ADT -->
+
+    <owl:Class rdf:about="#ADT">
+        <rdfs:label>ADT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- #AVL_Multiway_Search_Tree -->
+
+    <owl:Class rdf:about="#AVL_Multiway_Search_Tree">
+        <rdfs:label>AVL Multiway Search Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Multiway_Search_Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- #Adjacency_List -->
+
+    <owl:Class rdf:about="#Adjacency_List">
+        <rdfs:label>Adjacency List</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linked_Representation"/>
+    </owl:Class>
+    
+
+
+    <!-- #Adjacency_Matrix -->
+
+    <owl:Class rdf:about="#Adjacency_Matrix">
+        <rdfs:label>Adjacency Matrix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Sequential_Representation"/>
+    </owl:Class>
+    
+
+
+    <!-- #Application -->
+
+    <owl:Class rdf:about="#Application">
+        <rdfs:label>Application</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- #Array -->
+
+    <owl:Class rdf:about="#Array">
+        <rdfs:label>Array</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linear_Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Search_Algorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Sequential_Representation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Sorting_Algorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #B-Tree_Multiway_Search_Tree -->
+
+    <owl:Class rdf:about="#B-Tree_Multiway_Search_Tree">
+        <rdfs:label>B-Tree Multiway Search Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Multiway_Search_Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- #BFS -->
+
+    <owl:Class rdf:about="#BFS">
+        <rdfs:label>BFS</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Traversal_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Traversal_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Binary_File -->
+
+    <owl:Class rdf:about="#Binary_File">
+        <rdfs:label>Binary File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#File"/>
+    </owl:Class>
+    
+
+
+    <!-- #Binary_Search -->
+
+    <owl:Class rdf:about="#Binary_Search">
+        <rdfs:label>Binary Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Search_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Binary_Tree -->
+
+    <owl:Class rdf:about="#Binary_Tree">
+        <rdfs:label>Binary Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- #Char -->
+
+    <owl:Class rdf:about="#Char">
+        <rdfs:label>Char</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Primitive_Data_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- #Circular_Linked_List -->
+
+    <owl:Class rdf:about="#Circular_Linked_List">
+        <rdfs:label>Circular Linked List</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linked_List"/>
+    </owl:Class>
+    
+
+
+    <!-- #Circular_Queue -->
+
+    <owl:Class rdf:about="#Circular_Queue">
+        <rdfs:label>Circular Queue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Queue"/>
+    </owl:Class>
+    
+
+
+    <!-- #Collision_Avoidance -->
+
+    <owl:Class rdf:about="#Collision_Avoidance">
+        <rdfs:label>Collision Avoidance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Hash_Search"/>
+    </owl:Class>
+    
+
+
+    <!-- #Collision_Handling -->
+
+    <owl:Class rdf:about="#Collision_Handling">
+        <rdfs:label>Collision Handling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Hash_Search"/>
+        <skos:altLabel>collision resolution</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Domain -->
+
+    <owl:Class rdf:about="#Domain">
+        <rdfs:label>Domain</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/> -->
+    </owl:Class>
+    
+
+
+    <!-- #Copy_File -->
+
+    <owl:Class rdf:about="#Copy_File">
+        <rdfs:label>Copy File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- #Create_Operation -->
+
+    <owl:Class rdf:about="#Create_Operation">
+        <rdfs:label>Create Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Operation"/>
+        <skos:altLabel>creation</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #DFS -->
+
+    <owl:Class rdf:about="#DFS">
+        <rdfs:label>DFS</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Traversal_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Traversal_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Data_Structure -->
+
+    <owl:Class rdf:about="#Data_Structure">
+        <rdfs:label>Data Structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Representation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Application"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#ADT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Delete_Operation -->
+
+    <owl:Class rdf:about="#Delete_Operation">
+        <rdfs:label>Delete Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Operation"/>
+        <skos:altLabel>deletion</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Dequeue -->
+
+    <owl:Class rdf:about="#Dequeue">
+        <rdfs:label>Dequeue</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Delete_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Delete_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Double -->
+
+    <owl:Class rdf:about="#Double">
+        <rdfs:label>Double</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Primitive_Data_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- #Doubly_Linked_List -->
+
+    <owl:Class rdf:about="#Doubly_Linked_List">
+        <rdfs:label>Doubly Linked List</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linked_List"/>
+    </owl:Class>
+    
+
+
+    <!-- #Enqueue -->
+
+    <owl:Class rdf:about="#Enqueue">
+        <rdfs:label>Enqueue</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Insert_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Insert_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Expression_Tree -->
+
+    <owl:Class rdf:about="#Expression_Tree">
+        <rdfs:label>Expression Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Binary_Tree"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Expression_evaluation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Expression_evaluation -->
+
+    <owl:Class rdf:about="#Expression_evaluation">
+        <rdfs:label>Expression evaluation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- #File -->
+
+    <owl:Class rdf:about="#File">
+        <rdfs:label>File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Copy_File"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Float -->
+
+    <owl:Class rdf:about="#Float">
+        <rdfs:label>Float</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Primitive_Data_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- #Graph -->
+
+    <owl:Class rdf:about="#Graph">
+        <rdfs:label>Graph</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Non_Linear_Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#BFS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Adjacency_List"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Adjacency_Matrix"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#DFS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Hash_Search -->
+
+    <owl:Class rdf:about="#Hash_Search">
+        <rdfs:label>Hash Search</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Search_Algorithm"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <skos:altLabel>Hash Technique</skos:altLabel>
+        <!-- <skos:altLabel>Hash</skos:altLabel> -->
+    </owl:Class>
+    
+
+
+    <!-- #Hash_Table -->
+
+    <owl:Class rdf:about="#Hash_Table">
+        <rdfs:label>Hash Table</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Hash_Search"/>
+    </owl:Class>
+    
+
+
+    <!-- #Heap_sort -->
+
+    <owl:Class rdf:about="#Heap_sort">
+        <rdfs:label>Heap sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Sorting_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Huffman_Algorithm -->
+
+    <owl:Class rdf:about="#Huffman_Algorithm">
+        <rdfs:label>Huffman algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+        <skos:altLabel>Huffman coding algorithm</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Huffman_Tree -->
+
+    <owl:Class rdf:about="#Huffman_Tree">
+        <rdfs:label>Huffman Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Binary_Tree"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Huffman_Algorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Indexed_Search -->
+
+    <owl:Class rdf:about="#Indexed_Search">
+        <rdfs:label>Indexed Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Search_Algorithm"/>
+        <skos:altLabel>indexed sequential search</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Inorder -->
+
+    <owl:Class rdf:about="#Inorder">
+        <rdfs:label>Inorder</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Traversal_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Traversal_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Insert_Operation -->
+
+    <owl:Class rdf:about="#Insert_Operation">
+        <rdfs:label>Insert Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Operation"/>
+        <skos:altLabel>insertion</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Insertion_sort -->
+
+    <owl:Class rdf:about="#Insertion_sort">
+        <rdfs:label>Insertion sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Sorting_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Integer -->
+
+    <owl:Class rdf:about="#Integer">
+        <rdfs:label>Integer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Primitive_Data_Type"/>
+        <skos:altLabel>Integer</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Linear_Data_Structure -->
+
+    <owl:Class rdf:about="#Linear_Data_Structure">
+        <rdfs:label>Linear Data Structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Sequential_Representation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Linear_Search -->
+
+    <owl:Class rdf:about="#Linear_Search">
+        <rdfs:label>Linear Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Search_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Linked_List -->
+
+    <owl:Class rdf:about="#Linked_List">
+        <rdfs:label>Linked List</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linear_Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Polynomial"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Sparse_Matrix"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Linked_Representation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Linked_Representation -->
+
+    <owl:Class rdf:about="#Linked_Representation">
+        <rdfs:label>Linked Representation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Representation"/>
+    </owl:Class>
+    
+
+
+    <!-- #Merge_sort -->
+
+    <owl:Class rdf:about="#Merge_sort">
+        <rdfs:label>Merge sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Sorting_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Multi_Dimensional_Array -->
+
+    <owl:Class rdf:about="#Multi_Dimensional_Array">
+        <rdfs:label>Multi Dimensional Array</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Array"/>
+    </owl:Class>
+    
+
+
+    <!-- #Multiway_Search_Tree -->
+
+    <owl:Class rdf:about="#Multiway_Search_Tree">
+        <rdfs:label>Multiway Search Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- #Non_Linear_Data_Structure -->
+
+    <owl:Class rdf:about="#Non_Linear_Data_Structure">
+        <rdfs:label>Non Linear Data Structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Data_Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- #Operation -->
+
+    <owl:Class rdf:about="#Operation">
+        <rdfs:label>Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- #Polish_Notation -->
+
+    <owl:Class rdf:about="#Polish_Notation">
+        <rdfs:label>Polish Notation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- #Polynomial -->
+
+    <owl:Class rdf:about="#Polynomial">
+        <rdfs:label>Polynomial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- #Pop -->
+
+    <owl:Class rdf:about="#Pop">
+        <rdfs:label>Pop</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Delete_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Delete_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Postorder -->
+
+    <owl:Class rdf:about="#Postorder">
+        <rdfs:label>Postorder</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Traversal_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Traversal_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Preorder -->
+
+    <owl:Class rdf:about="#Preorder">
+        <rdfs:label>Preorder</rdfs:label>
+        <!-- <rdfs:subClassOf rdf:resource="#Traversal_Operation"/> -->
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Traversal_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Primitive_Data_Type -->
+
+    <owl:Class rdf:about="#Primitive_Data_Type">
+        <rdfs:label>Primitive Data Type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#ADT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:altLabel>Primitive Datatype</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Priority_Queue -->
+
+    <owl:Class rdf:about="#Priority_Queue">
+        <rdfs:label>Priority Queue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Queue"/>
+    </owl:Class>
+    
+
+
+    <!-- #Push -->
+    
+    <owl:Class rdf:about="#Push">
+        <rdfs:label>Push</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#isA"/>
+                <owl:someValuesFrom rdf:resource="#Insert_Operation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Queue -->
+
+    <owl:Class rdf:about="#Queue">
+        <rdfs:label>Queue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linear_Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Enqueue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Linked_Representation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Dequeue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Johnsons_Algorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasRepresentation"/>
+                <owl:someValuesFrom rdf:resource="#Sequential_Representation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Simulation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Quick_sort -->
+
+    <owl:Class rdf:about="#Quick_sort">
+        <rdfs:label>Quick sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Sorting_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Radix_sort -->
+
+    <owl:Class rdf:about="#Radix_sort">
+        <rdfs:label>Radix sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Sorting_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Recursion -->
+
+    <owl:Class rdf:about="#Recursion">
+        <rdfs:label>Recursion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- #Representation -->
+
+    <owl:Class rdf:about="#Representation">
+        <rdfs:label>Representation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- #Search_Algorithm -->
+
+    <owl:Class rdf:about="#Search_Algorithm">
+        <rdfs:label>Search Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+        <skos:altLabel>Searching Technique</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Search_Operation -->
+
+    <owl:Class rdf:about="#Search_Operation">
+        <rdfs:label>Search Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Operation"/>
+        <!-- <skos:altLabel>search</skos:altLabel> -->
+    </owl:Class>
+    
+
+
+    <!-- #Sequential_Representation -->
+
+    <owl:Class rdf:about="#Sequential_Representation">
+        <rdfs:label>Sequential Representation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Representation"/>
+        <skos:altLabel>array representation</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Shell_sort -->
+
+    <owl:Class rdf:about="#Shell_sort">
+        <rdfs:label>Shell sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Sorting_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- #Simulation -->
+
+    <owl:Class rdf:about="#Simulation">
+        <rdfs:label>Simulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- #Single_Dimensional_Array -->
+
+    <owl:Class rdf:about="#Single_Dimensional_Array">
+        <rdfs:label>Single Dimensional Array</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Array"/>
+    </owl:Class>
+    
+
+
+    <!-- #Single_Linked_List -->
+
+    <owl:Class rdf:about="#Single_Linked_List">
+        <rdfs:label>Single Linked List</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linked_List"/>
+    </owl:Class>
+    
+
+
+    <!-- #Sorting_Algorithm -->
+
+    <owl:Class rdf:about="#Sorting_Algorithm">
+        <rdfs:label>Sorting Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+        <skos:altLabel>Sort</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Sparse_Matrix -->
+
+    <owl:Class rdf:about="#Sparse_Matrix">
+        <rdfs:label>Sparse Matrix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- #Stack -->
+
+    <owl:Class rdf:about="#Stack">
+        <rdfs:label>Stack</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Linear_Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Postorder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Preorder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Inorder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Recursion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Polish_Notation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Pop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Push"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- #Text_File -->
+
+    <owl:Class rdf:about="#Text_File">
+        <rdfs:label>Text File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#File"/>
+    </owl:Class>
+    
+
+
+    <!-- #Threaded_Tree -->
+
+    <owl:Class rdf:about="#Threaded_Tree">
+        <rdfs:label>Threaded Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Binary_Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- #Traversal_Operation -->
+
+    <owl:Class rdf:about="#Traversal_Operation">
+        <rdfs:label>Traversal Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Operation"/>
+        <skos:altLabel>traversal technique</skos:altLabel>
+        <skos:altLabel>traversal</skos:altLabel>
+        <skos:altLabel>traversal algorithm</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- #Tree -->
+
+    <owl:Class rdf:about="#Tree">
+        <rdfs:label>Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Non_Linear_Data_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Preorder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasApplication"/>
+                <owl:someValuesFrom rdf:resource="#Heap_sort"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Inorder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOperation"/>
+                <owl:someValuesFrom rdf:resource="#Postorder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+    <!-- #Johnsons_Algorithm -->
+
+    <owl:Class rdf:about="#Johnsons_Algorithm">
+        <rdfs:label>Johnsons Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- #Heap -->
+
+    <owl:Class rdf:about="#Heap">
+        <rdfs:label>Heap</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- #Linear_probing -->
+
+    <owl:Class rdf:about="#Linear_probing">
+        <rdfs:label>Linear Probing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Collision_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- #Quadratic_probing -->
+
+    <owl:Class rdf:about="#Quadratic_probing">
+        <rdfs:label>Quadratic Probing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#Collision_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- #hash_function -->
+
+    <owl:Class rdf:about="#Hash_function">
+        <rdfs:label>Hash function</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="#Hash_Search"/>
+    </owl:Class>
+    
+
+
+    <!-- #infix_expression -->
+
+    <owl:Class rdf:about="#Infix">
+        <rdfs:label>Infix</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="#Expression_evaluation"/>
+    </owl:Class>
+    
+
+
+    <!-- #Max_heap -->
+
+    <owl:Class rdf:about="#Max_heap">
+        <rdfs:label>Max Heap</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="#Heap"/>
+    </owl:Class>
+    
+
+
+    <!-- #Min_heap -->
+
+    <owl:Class rdf:about="#Min_heap">
+        <rdfs:label>Min Heap</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="#Heap"/>
+    </owl:Class>
+    
+
+
+    <!-- #Postfix -->
+
+    <owl:Class rdf:about="#Postfix">
+        <rdfs:label>Postfix</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="#Expression_evaluation"/>
+    </owl:Class>
+    
+
+
+    <!-- #Prefix -->
+
+    <owl:Class rdf:about="#Prefix">
+        <rdfs:label>Prefix</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="#Expression_evaluation"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

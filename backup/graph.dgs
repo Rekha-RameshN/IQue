@@ -1,0 +1,352 @@
+DGS004
+null 0 0
+cg  "ui.quality":true
+cg  "ui.antialias":true
+cg  "ui.stylesheet":"url(E:\Niraj Internship\QGraph\src\gui\test.css)"
+an "Stack"
+cn "Stack"  "xyz":{-0.896126,3.448564,0.000000}
+cn "Stack"  "ui.label":"Stack"
+an "Postfix"
+cn "Postfix"  "xyz":{-1.058154,1.247286,0.000000}
+cn "Postfix"  "ui.label":"Postfix"
+an "Huffman_Algorithm"
+cn "Huffman_Algorithm"  "xyz":{1.671897,2.609681,0.000000}
+cn "Huffman_Algorithm"  "ui.label":"Huffman algorithm"
+an "Domain"
+cn "Domain"  "xyz":{-0.735016,4.947655,0.000000}
+cn "Domain"  "ui.label":"Domain"
+an "Hash_Search"
+cn "Hash_Search"  "xyz":{-2.205979,1.930515,0.000000}
+cn "Hash_Search"  "ui.label":"Hash Search"
+an "Pop"
+cn "Pop"  "xyz":{0.845792,3.093406,0.000000}
+cn "Pop"  "ui.label":"Pop"
+an "Dequeue"
+cn "Dequeue"  "xyz":{0.515064,3.087984,0.000000}
+cn "Dequeue"  "ui.label":"Dequeue"
+an "Postorder"
+cn "Postorder"  "xyz":{-0.146394,2.469901,0.000000}
+cn "Postorder"  "ui.label":"Postorder"
+an "Operation"
+cn "Operation"  "xyz":{-0.054223,4.671144,0.000000}
+cn "Operation"  "ui.label":"Operation"
+an "Data_Structure"
+cn "Data_Structure"  "xyz":{-1.669914,4.703675,0.000000}
+cn "Data_Structure"  "ui.label":"Data Structure"
+an "Inorder"
+cn "Inorder"  "xyz":{0.780731,2.399418,0.000000}
+cn "Inorder"  "ui.label":"Inorder"
+an "ADT"
+cn "ADT"  "xyz":{-3.383197,4.709097,0.000000}
+cn "ADT"  "ui.label":"ADT"
+an "Preorder"
+cn "Preorder"  "xyz":{0.325301,2.404839,0.000000}
+cn "Preorder"  "ui.label":"Preorder"
+an "Representation"
+cn "Representation"  "xyz":{0.805155,4.731518,0.000000}
+cn "Representation"  "ui.label":"Representation"
+an "BFS"
+cn "BFS"  "xyz":{-0.428326,2.648820,0.000000}
+cn "BFS"  "ui.label":"BFS"
+an "Primitive_Data_Type"
+cn "Primitive_Data_Type"  "xyz":{-2.743234,4.699084,0.000000}
+cn "Primitive_Data_Type"  "ui.label":"Primitive Data Type"
+an "Push"
+cn "Push"  "xyz":{-0.227720,3.413291,0.000000}
+cn "Push"  "ui.label":"Push"
+an "Enqueue"
+cn "Enqueue"  "xyz":{-0.569293,3.397026,0.000000}
+cn "Enqueue"  "ui.label":"Enqueue"
+an "DFS"
+cn "DFS"  "xyz":{0.287349,2.621711,0.000000}
+cn "DFS"  "ui.label":"DFS"
+an "Application"
+cn "Application"  "xyz":{1.887650,4.721179,0.000000}
+cn "Application"  "ui.label":"Application"
+an "Shell_sort"
+cn "Shell_sort"  "xyz":{0.949419,1.426477,0.000000}
+cn "Shell_sort"  "ui.label":"Shell sort"
+an "Multi_Dimensional_Array"
+cn "Multi_Dimensional_Array"  "xyz":{-2.127721,3.153204,0.000000}
+cn "Multi_Dimensional_Array"  "ui.label":"Multi Dimensional Array"
+an "File"
+cn "File"  "xyz":{-1.675336,4.231980,0.000000}
+cn "File"  "ui.label":"File"
+an "Binary_File"
+cn "Binary_File"  "xyz":{-1.280651,3.905536,0.000000}
+cn "Binary_File"  "ui.label":"Binary File"
+an "Text_File"
+cn "Text_File"  "xyz":{-1.702445,3.917517,0.000000}
+cn "Text_File"  "ui.label":"Text File"
+an "Radix_sort"
+cn "Radix_sort"  "xyz":{1.900354,1.388440,0.000000}
+cn "Radix_sort"  "ui.label":"Radix sort"
+an "Huffman_Tree"
+cn "Huffman_Tree"  "xyz":{-3.321852,2.147088,0.000000}
+cn "Huffman_Tree"  "ui.label":"Huffman Tree"
+an "Threaded_Tree"
+cn "Threaded_Tree"  "xyz":{-2.896519,1.782517,0.000000}
+cn "Threaded_Tree"  "ui.label":"Threaded Tree"
+an "Polish_Notation"
+cn "Polish_Notation"  "xyz":{1.986520,2.351469,0.000000}
+cn "Polish_Notation"  "ui.label":"Polish Notation"
+an "Copy_File"
+cn "Copy_File"  "xyz":{0.249533,3.830495,0.000000}
+cn "Copy_File"  "ui.label":"Copy File"
+an "Create_Operation"
+cn "Create_Operation"  "xyz":{0.243975,4.237402,0.000000}
+cn "Create_Operation"  "ui.label":"Create Operation"
+an "Insert_Operation"
+cn "Insert_Operation"  "xyz":{-0.319891,3.809081,0.000000}
+cn "Insert_Operation"  "ui.label":"Insert Operation"
+an "Delete_Operation"
+cn "Delete_Operation"  "xyz":{0.677717,3.451243,0.000000}
+cn "Delete_Operation"  "ui.label":"Delete Operation"
+an "Search_Operation"
+cn "Search_Operation"  "xyz":{-0.433748,4.286198,0.000000}
+cn "Search_Operation"  "ui.label":"Search Operation"
+an "Traversal_Operation"
+cn "Traversal_Operation"  "xyz":{-0.016271,2.881956,0.000000}
+cn "Traversal_Operation"  "ui.label":"Traversal Operation"
+an "Johnsons_Algorithm"
+cn "Johnsons_Algorithm"  "xyz":{1.864997,3.019849,0.000000}
+cn "Johnsons_Algorithm"  "ui.label":"Johnsons Algorithm"
+an "Tree"
+cn "Tree"  "xyz":{-2.369324,3.814503,0.000000}
+cn "Tree"  "ui.label":"Tree"
+an "Binary_Tree"
+cn "Binary_Tree"  "xyz":{-3.316328,3.196610,0.000000}
+cn "Binary_Tree"  "ui.label":"Binary Tree"
+an "Multiway_Search_Tree"
+cn "Multiway_Search_Tree"  "xyz":{-2.896519,2.964611,0.000000}
+cn "Multiway_Search_Tree"  "ui.label":"Multiway Search Tree"
+an "Heap"
+cn "Heap"  "xyz":{-3.062233,3.776609,0.000000}
+cn "Heap"  "ui.label":"Heap"
+an "Integer"
+cn "Integer"  "xyz":{-3.135424,4.527846,0.000000}
+cn "Integer"  "ui.label":"Integer"
+an "Adjacency_List"
+cn "Adjacency_List"  "xyz":{0.840371,3.857877,0.000000}
+cn "Adjacency_List"  "ui.label":"Adjacency List"
+an "Doubly_Linked_List"
+cn "Doubly_Linked_List"  "xyz":{-0.884980,2.540193,0.000000}
+cn "Doubly_Linked_List"  "ui.label":"Doubly Linked List"
+an "Priority_Queue"
+cn "Priority_Queue"  "xyz":{-0.855204,1.964803,0.000000}
+cn "Priority_Queue"  "ui.label":"Priority Queue"
+an "B-Tree_Multiway_Search_Tree"
+cn "B-Tree_Multiway_Search_Tree"  "xyz":{-2.178425,2.649754,0.000000}
+cn "B-Tree_Multiway_Search_Tree"  "ui.label":"B-Tree Multiway Search Tree"
+an "AVL_Multiway_Search_Tree"
+cn "AVL_Multiway_Search_Tree"  "xyz":{-2.708710,2.467469,0.000000}
+cn "AVL_Multiway_Search_Tree"  "ui.label":"AVL Multiway Search Tree"
+an "Collision_Avoidance"
+cn "Collision_Avoidance"  "xyz":{-1.214568,1.483954,0.000000}
+cn "Collision_Avoidance"  "ui.label":"Collision Avoidance"
+an "Char"
+cn "Char"  "xyz":{-3.361900,4.301370,0.000000}
+cn "Char"  "ui.label":"Char"
+an "Float"
+cn "Float"  "xyz":{-2.815043,4.527846,0.000000}
+cn "Float"  "ui.label":"Float"
+an "Heap_sort"
+cn "Heap_sort"  "xyz":{0.943985,1.241724,0.000000}
+cn "Heap_sort"  "ui.label":"Heap sort"
+an "Indexed_Search"
+cn "Indexed_Search"  "xyz":{0.172369,1.844889,0.000000}
+cn "Indexed_Search"  "ui.label":"Indexed Search"
+an "Expression_Tree"
+cn "Expression_Tree"  "xyz":{-3.150614,1.942708,0.000000}
+cn "Expression_Tree"  "ui.label":"Expression Tree"
+an "Linear_Data_Structure"
+cn "Linear_Data_Structure"  "xyz":{-1.247015,4.470538,0.000000}
+cn "Linear_Data_Structure"  "ui.label":"Linear Data Structure"
+an "Array"
+cn "Array"  "xyz":{-1.687467,3.437419,0.000000}
+cn "Array"  "ui.label":"Array"
+an "Queue"
+cn "Queue"  "xyz":{-1.214251,2.124993,0.000000}
+cn "Queue"  "ui.label":"Queue"
+an "Linked_List"
+cn "Linked_List"  "xyz":{-1.291797,3.454137,0.000000}
+cn "Linked_List"  "ui.label":"Linked List"
+an "Sparse_Matrix"
+cn "Sparse_Matrix"  "xyz":{1.972237,3.737943,0.000000}
+cn "Sparse_Matrix"  "ui.label":"Sparse Matrix"
+an "Simulation"
+cn "Simulation"  "xyz":{2.108627,3.384420,0.000000}
+cn "Simulation"  "ui.label":"Simulation"
+an "Search_Algorithm"
+cn "Search_Algorithm"  "xyz":{0.933117,2.073113,0.000000}
+cn "Search_Algorithm"  "ui.label":"Search Algorithm"
+an "Linear_Search"
+cn "Linear_Search"  "xyz":{0.796596,1.838034,0.000000}
+cn "Linear_Search"  "ui.label":"Linear Search"
+an "Binary_Search"
+cn "Binary_Search"  "xyz":{1.389727,1.832275,0.000000}
+cn "Binary_Search"  "ui.label":"Binary Search"
+an "Recursion"
+cn "Recursion"  "xyz":{1.355176,3.277673,0.000000}
+cn "Recursion"  "ui.label":"Recursion"
+an "Sorting_Algorithm"
+cn "Sorting_Algorithm"  "xyz":{1.715601,1.654702,0.000000}
+cn "Sorting_Algorithm"  "ui.label":"Sorting Algorithm"
+an "Insertion_sort"
+cn "Insertion_sort"  "xyz":{1.940495,1.219957,0.000000}
+cn "Insertion_sort"  "ui.label":"Insertion sort"
+an "Merge_sort"
+cn "Merge_sort"  "xyz":{1.405868,1.230856,0.000000}
+cn "Merge_sort"  "ui.label":"Merge sort"
+an "Quick_sort"
+cn "Quick_sort"  "xyz":{1.411301,1.399308,0.000000}
+cn "Quick_sort"  "ui.label":"Quick sort"
+an "Non_Linear_Data_Structure"
+cn "Non_Linear_Data_Structure"  "xyz":{-2.152453,4.475960,0.000000}
+cn "Non_Linear_Data_Structure"  "ui.label":"Non Linear Data Structure"
+an "Max_heap"
+cn "Max_heap"  "xyz":{-2.865191,3.562006,0.000000}
+cn "Max_heap"  "ui.label":"Max Heap"
+an "Double"
+cn "Double"  "xyz":{-3.052168,4.284799,0.000000}
+cn "Double"  "ui.label":"Double"
+an "Hash_function"
+cn "Hash_function"  "xyz":{-3.111357,1.505946,0.000000}
+cn "Hash_function"  "ui.label":"Hash function"
+an "Circular_Queue"
+cn "Circular_Queue"  "xyz":{-1.501489,1.948231,0.000000}
+cn "Circular_Queue"  "ui.label":"Circular Queue"
+an "Single_Linked_List"
+cn "Single_Linked_List"  "xyz":{-1.135757,2.958155,0.000000}
+cn "Single_Linked_List"  "ui.label":"Single Linked List"
+an "Polynomial"
+cn "Polynomial"  "xyz":{1.222729,2.834264,0.000000}
+cn "Polynomial"  "ui.label":"Polynomial"
+an "Expression_evaluation"
+cn "Expression_evaluation"  "xyz":{-0.355116,1.492520,0.000000}
+cn "Expression_evaluation"  "ui.label":"Expression evaluation"
+an "Adjacency_Matrix"
+cn "Adjacency_Matrix"  "xyz":{1.561468,3.977156,0.000000}
+cn "Adjacency_Matrix"  "ui.label":"Adjacency Matrix"
+an "Single_Dimensional_Array"
+cn "Single_Dimensional_Array"  "xyz":{-1.999546,2.974874,0.000000}
+cn "Single_Dimensional_Array"  "ui.label":"Single Dimensional Array"
+an "Sequential_Representation"
+cn "Sequential_Representation"  "xyz":{1.501828,4.226558,0.000000}
+cn "Sequential_Representation"  "ui.label":"Sequential Representation"
+an "Linked_Representation"
+cn "Linked_Representation"  "xyz":{0.780731,4.080170,0.000000}
+cn "Linked_Representation"  "ui.label":"Linked Representation"
+an "Graph"
+cn "Graph"  "xyz":{-2.066420,3.805225,0.000000}
+cn "Graph"  "ui.label":"Graph"
+an "Collision_Handling"
+cn "Collision_Handling"  "xyz":{-2.432482,1.499998,0.000000}
+cn "Collision_Handling"  "ui.label":"Collision Handling"
+an "Quadratic_probing"
+cn "Quadratic_probing"  "xyz":{-2.388563,1.203543,0.000000}
+cn "Quadratic_probing"  "ui.label":"Quadratic Probing"
+an "Linear_probing"
+cn "Linear_probing"  "xyz":{-1.755005,1.198061,0.000000}
+cn "Linear_probing"  "ui.label":"Linear Probing"
+an "Infix"
+cn "Infix"  "xyz":{-0.527968,1.236354,0.000000}
+cn "Infix"  "ui.label":"Infix"
+an "Prefix"
+cn "Prefix"  "xyz":{0.111328,1.239144,0.000000}
+cn "Prefix"  "ui.label":"Prefix"
+an "Circular_Linked_List"
+cn "Circular_Linked_List"  "xyz":{-1.002010,2.751961,0.000000}
+cn "Circular_Linked_List"  "ui.label":"Circular Linked List"
+an "Hash_Table"
+cn "Hash_Table"  "xyz":{-1.852329,1.483954,0.000000}
+cn "Hash_Table"  "ui.label":"Hash Table"
+an "Min_heap"
+cn "Min_heap"  "xyz":{-3.305281,3.588800,0.000000}
+cn "Min_heap"  "ui.label":"Min Heap"
+ae "DomainHash_Search" "Domain" > "Hash_Search"
+ae "DomainPop" "Domain" > "Pop"
+ae "DomainDequeue" "Domain" > "Dequeue"
+ae "DomainPostorder" "Domain" > "Postorder"
+ae "DomainOperation" "Domain" > "Operation"
+ae "DomainData_Structure" "Domain" > "Data_Structure"
+ae "DomainInorder" "Domain" > "Inorder"
+ae "DomainADT" "Domain" > "ADT"
+ae "DomainPreorder" "Domain" > "Preorder"
+ae "DomainRepresentation" "Domain" > "Representation"
+ae "DomainBFS" "Domain" > "BFS"
+ae "DomainPrimitive_Data_Type" "Domain" > "Primitive_Data_Type"
+ae "DomainPush" "Domain" > "Push"
+ae "DomainEnqueue" "Domain" > "Enqueue"
+ae "DomainDFS" "Domain" > "DFS"
+ae "DomainApplication" "Domain" > "Application"
+ae "FileBinary_File" "File" > "Binary_File"
+ae "FileText_File" "File" > "Text_File"
+ae "OperationCopy_File" "Operation" > "Copy_File"
+ae "OperationCreate_Operation" "Operation" > "Create_Operation"
+ae "OperationInsert_Operation" "Operation" > "Insert_Operation"
+ae "OperationDelete_Operation" "Operation" > "Delete_Operation"
+ae "OperationSearch_Operation" "Operation" > "Search_Operation"
+ae "OperationTraversal_Operation" "Operation" > "Traversal_Operation"
+ae "TreeBinary_Tree" "Tree" > "Binary_Tree"
+ae "TreeMultiway_Search_Tree" "Tree" > "Multiway_Search_Tree"
+ae "TreeHeap" "Tree" > "Heap"
+ae "Multiway_Search_TreeB-Tree_Multiway_Search_Tree" "Multiway_Search_Tree" > "B-Tree_Multiway_Search_Tree"
+ae "Multiway_Search_TreeAVL_Multiway_Search_Tree" "Multiway_Search_Tree" > "AVL_Multiway_Search_Tree"
+ae "Binary_TreeExpression_Tree" "Binary_Tree" > "Expression_Tree"
+ae "Binary_TreeHuffman_Tree" "Binary_Tree" > "Huffman_Tree"
+ae "Binary_TreeThreaded_Tree" "Binary_Tree" > "Threaded_Tree"
+ae "Linear_Data_StructureArray" "Linear_Data_Structure" > "Array"
+ae "Linear_Data_StructureQueue" "Linear_Data_Structure" > "Queue"
+ae "Linear_Data_StructureLinked_List" "Linear_Data_Structure" > "Linked_List"
+ae "Linear_Data_StructureStack" "Linear_Data_Structure" > "Stack"
+ae "Search_AlgorithmLinear_Search" "Search_Algorithm" > "Linear_Search"
+ae "Search_AlgorithmBinary_Search" "Search_Algorithm" > "Binary_Search"
+ae "Search_AlgorithmIndexed_Search" "Search_Algorithm" > "Indexed_Search"
+ae "Sorting_AlgorithmHeap_sort" "Sorting_Algorithm" > "Heap_sort"
+ae "Sorting_AlgorithmInsertion_sort" "Sorting_Algorithm" > "Insertion_sort"
+ae "Sorting_AlgorithmMerge_sort" "Sorting_Algorithm" > "Merge_sort"
+ae "Sorting_AlgorithmShell_sort" "Sorting_Algorithm" > "Shell_sort"
+ae "Sorting_AlgorithmQuick_sort" "Sorting_Algorithm" > "Quick_sort"
+ae "Sorting_AlgorithmRadix_sort" "Sorting_Algorithm" > "Radix_sort"
+ae "Data_StructureNon_Linear_Data_Structure" "Data_Structure" > "Non_Linear_Data_Structure"
+ae "Data_StructureFile" "Data_Structure" > "File"
+ae "Data_StructureLinear_Data_Structure" "Data_Structure" > "Linear_Data_Structure"
+ae "Primitive_Data_TypeFloat" "Primitive_Data_Type" > "Float"
+ae "Primitive_Data_TypeDouble" "Primitive_Data_Type" > "Double"
+ae "Primitive_Data_TypeInteger" "Primitive_Data_Type" > "Integer"
+ae "Primitive_Data_TypeChar" "Primitive_Data_Type" > "Char"
+ae "ApplicationSearch_Algorithm" "Application" > "Search_Algorithm"
+ae "ApplicationPolish_Notation" "Application" > "Polish_Notation"
+ae "ApplicationHuffman_Algorithm" "Application" > "Huffman_Algorithm"
+ae "ApplicationJohnsons_Algorithm" "Application" > "Johnsons_Algorithm"
+ae "ApplicationPolynomial" "Application" > "Polynomial"
+ae "ApplicationExpression_evaluation" "Application" > "Expression_evaluation"
+ae "ApplicationSimulation" "Application" > "Simulation"
+ae "ApplicationSparse_Matrix" "Application" > "Sparse_Matrix"
+ae "ApplicationSorting_Algorithm" "Application" > "Sorting_Algorithm"
+ae "ApplicationRecursion" "Application" > "Recursion"
+ae "Sequential_RepresentationAdjacency_Matrix" "Sequential_Representation" > "Adjacency_Matrix"
+ae "Linked_RepresentationAdjacency_List" "Linked_Representation" > "Adjacency_List"
+ae "Collision_HandlingQuadratic_probing" "Collision_Handling" > "Quadratic_probing"
+ae "Collision_HandlingLinear_probing" "Collision_Handling" > "Linear_probing"
+ae "Expression_evaluationInfix" "Expression_evaluation" > "Infix"
+ae "Expression_evaluationPostfix" "Expression_evaluation" > "Postfix"
+ae "Expression_evaluationPrefix" "Expression_evaluation" > "Prefix"
+ae "Non_Linear_Data_StructureTree" "Non_Linear_Data_Structure" > "Tree"
+ae "Non_Linear_Data_StructureGraph" "Non_Linear_Data_Structure" > "Graph"
+ae "QueuePriority_Queue" "Queue" > "Priority_Queue"
+ae "QueueCircular_Queue" "Queue" > "Circular_Queue"
+ae "Hash_SearchCollision_Avoidance" "Hash_Search" > "Collision_Avoidance"
+ae "Hash_SearchHash_function" "Hash_Search" > "Hash_function"
+ae "Hash_SearchCollision_Handling" "Hash_Search" > "Collision_Handling"
+ae "Hash_SearchHash_Table" "Hash_Search" > "Hash_Table"
+ae "ArraySingle_Dimensional_Array" "Array" > "Single_Dimensional_Array"
+ae "ArrayMulti_Dimensional_Array" "Array" > "Multi_Dimensional_Array"
+ae "RepresentationLinked_Representation" "Representation" > "Linked_Representation"
+ae "RepresentationSequential_Representation" "Representation" > "Sequential_Representation"
+ae "Linked_ListSingle_Linked_List" "Linked_List" > "Single_Linked_List"
+ae "Linked_ListDoubly_Linked_List" "Linked_List" > "Doubly_Linked_List"
+ae "Linked_ListCircular_Linked_List" "Linked_List" > "Circular_Linked_List"
+ae "HeapMin_heap" "Heap" > "Min_heap"
+ae "HeapMax_heap" "Heap" > "Max_heap"

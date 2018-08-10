@@ -1,0 +1,39 @@
+what are linkers?
+how are linked list beneficial
+how to link different nodes
+how to know the address of the first value in the linked list?
+Can a linked list be sorted?
+what is the role of memory manager?
+what are the disadvantages of this linked list ?
+what is array
+What is the difference between Continuous memory and contiguous memory
+node uses extra storage then why to make our program more havier by using node
+does the element is permanently deleted from the memory when it is deleted from linked list as that element occupies some space in memory block
+CAN WE HAVE IN A NODE THE ADDRESS OF AN ELEMENT THAT IS STORED IN ANOTHER ARRAY
+what is the role of memory manager
+Is linked list useful to create and read for a big theory chapter as there are no explanations
+Can we use different type of DATA TYPES in linked list
+Is Albert a fool or not
+what is big O of n "O(n)" and small o of n "o(n)" in terms of processing in arrays and linked lists
+IS THERE AN ALTERNATIVE TO LINKED LIST
+If there is huge no. of variables,and linking them together and jumping can take more time than an array ,then how can that be an advantage compared to an array on basis of time allocation
+Why memory is allocated randomly in linked list and why not contiguous as in case of array
+why shouldn't we use microsoft power point instead of cmap, power point has much options to describe our topics
+how will we know the address in which our value is stored
+can we store a string like in arrays by using a linked list
+what will happen if the entire memory(RAM as well as hard disk ) will run short in space or it has no space left to store more values
+what is the use of linked list
+does the address of a pre assigned memory increases with 1 increment or with 2
+how does structure node accepts valve and manipulates it
+why the last variable is given null adress, will not the memory manager consider it wrong
+How can access the data we have stored in the node somewhere in the middle of the link list
+If their is many variable then linking is a long process then what should we use
+Can Linked list be used in case of Strings
+Why can't we easily insert the elements in the array directly as by shifting the memory assigned to the other variable?
+what will happen if we allocate some memory in the begining but do not deallocate the extra memory in the end
+why linked list do not provide adjacent memory space to all the values
+what is the video all about
+why in linked list the address of of first element is not allocated
+Is there any other way by which time consumption by Lnked List can be reduced
+Is there any other way to reduce the useless memory alloted to the arrays
+While we are not using array,Why the memory manager does not save data to the very next memory space

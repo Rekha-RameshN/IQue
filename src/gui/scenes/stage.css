@@ -1,0 +1,9 @@
+* {    
+  -fx-font-size:13px;  
+}
+VBox{
+    -fx-background-color:lightgrey
+}
+#GridPane {
+    /*margin-top: 10px;*/
+}

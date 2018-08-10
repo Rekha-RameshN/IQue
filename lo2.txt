@@ -1,0 +1,15 @@
+Construct and delete nodes, display the contents of nodes, create singly-linked and doubly-linked lists using nodes and traverse through them.
+Construct, modify, insert and delete nodes in a binary tree, binary search tree, B-tree and heaps and perform pre-order, in-order and post-order ‘traversal on the same. 
+Construct, modify, insert and delete nodes in a binary search tree and perform pre-order, in-order and post-order traversal on the same. 
+Construct, modify, insert and delete nodes in a B-tree and perform pre-order, in-order and post-order traversal on the same.
+Construct, modify, insert and delete nodes in a heap and perform pre-order, in-order and post-order traversal on the same.
+Represent graphs in different forms using adjacency lists and adjacency matrices.
+Model a given Data Structure as ADT.
+Describe how stack is represented in memory.
+Write programs that use data structures such as: arrays, linked lists, stacks, queues, trees, hash tables, and graphs.
+Demonstrate and implement different methods for traversing trees.
+Implement hash tables, including collision avoidance and resolution.
+Implement various searching and sorting algorithms.
+Analyze a given problem and select the appropriate data structures required to solve the problem.
+Demonstrate and implement various operations on data structures.
+Describe the concept of recursion, give examples of its use, and describe how it can be implemented using stack

@@ -1,0 +1,10 @@
+Model a given Data Structure as ADT.
+Describe how various data structures are represented in memory.
+Write programs that use data structures such as: arrays, linked lists, stacks, queues, trees, hash tables, and graphs.
+Demonstrate and implement different methods for traversing data structures.
+Understand the working of multi-way search tree structures.
+Implement the Huffman coding algorithm using binary tree.
+Implement hash tables, including collision avoidance and resolution.
+Implement various searching and sorting algorithms.
+Analyze a given problem and select the appropriate data structures required to solve the problem.
+Demonstrate and implement various operations on data structures.

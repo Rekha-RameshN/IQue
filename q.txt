@@ -1,0 +1,100 @@
+﻿Write a program  to implement circular queue
+Explain Linear and Non Linear data structure with example
+What are the advantages of linked list over array?  Write a program to implement stack using linked list
+Write a program  to implement insertion sort. Show the passess of insertion sort for the following input 
+Give different searching techniques. Write a program  to implement binary search
+Explain different representation of graph. State advantages and disadvantages of each representation
+Hash the following in a table of size 11. Use any two collision resolution techniques.  23  0  52  61  78  33  100  8  10  90  14
+Write a program to create a binary search tree. Show BST for the following input
+Explain the method of Huffman coding. Apply the Huffman Coding Method for the following method. Give the code for each symbol 
+Explain indexed sequential search with an example
+Write a program to implement interpolation  search
+Write a program to implement binary search
+Write a program to implement Radix sort. Show the steps to sort the following numbers. 12 45 23 65 0 98 13 10
+Write ADT for stack. Give application of stack
+Write a program to create a  linked list and perform the following operation (i) Insert into list (ii) Search for data (iii)Delete from list (iv) Display the list
+Write short note on tree traversal algorithm
+Write a program to implement Quick sort. Show the steps to sort the following numbers. 44  33 11 55 77 90 40 60
+Write a program to implement Merge sort. Show the steps to sort the following numbers. 99 22 88 66 40 10 34 52
+Write a program to implement shell sort
+Write a program to convert given fully parenthesized infix expression  to postfix expression.
+Write functions to implement push and pop operations
+Define Abstract Data Type 
+Define data structure.  Explain different types of data structures with example 
+Compare iteration and recursion
+Write a program to sort given n integers using Heap sort
+Write a non-recursive function for inorder traversal
+Explain circular queue and double ended queue with an example
+Write a program to implement DFS traversal of a graph using adjacency matrix
+Write a program to construct binary tree for the following preorder and  inorder traversal sequences 
+What is Huffman Coding? Construct the Huffman tree and determine the code for the following characters whose frequencies are given
+Write a program to implement circular queue. The following operation should be performed by the program (i) Creating the queue (ii) Inserting into queue (iii) Deleting from the queue (iv) Displaying all the elements of the queue
+What are the limitations of radix sort?
+Explain various graph traversal technique using example
+Discuss AVL trees. Insert the following elements into a AVL search tree: 27  23 25 29 35 33 39
+Using Linear probing and quadratic probing insert the following values into a Hash table of size 10. Show how many collisions occur in each technique: 99 33 23 44 56 43 19
+What are the advantages and disadvantages of indexed sequential search? 
+Write a program for deletion of anode from BST. The program should consider all the cases
+write a program to merge 2 sorted singly linked list
+Evaluate the following prefix expression " ++ 26 + - 1324"
+Write an ADT for Circular Queue. Explain its primitive functions with example
+List any four applications of Queue and explain any one
+What is array representation of given binary tree ?
+What is linked representation of given binary tree ?
+Write algorithm for Breadth First Traversal of the graph 
+Explain Graph as an ADT
+Write and explain algorithm to delete node from AVL tree
+What is hash function ? Explain the different types of hash functions
+Define heap. Explain types of heap. Write an algorithm to insert an element into heap
+Construct a B tree of order 5 for the following data
+What is B tree ? Explain the process for deleting a particular value from B tree
+List and explain in brief applications of binary tree
+Write non-recursive algorithm for traversal of binary tree
+Write a ‘C’ program to shift elements of an integer array one location ahead. Element present at last location of array should be shifted on first location of the array. Write separate functions for accepting array, shifting array, displaying array etc
+Explain in detail the concept of data object, data structures, linear data structure and non-linear data structure
+What is Abstract Data Type (ADT) ? Write an abstract data type for linked list
+Explain how a polynomial is represented using array with one example
+What a ‘C’ program to implement circular linked list and display the contents in reverse order. (Write separate functions for create and display)
+Write a ‘C’ program to implement circular queue using array and perform insert and delete operation
+Differentiate between linear and circular queue
+Explain stack overflow and underflow conditions
+What is priority queue ? Give an application for priority queue
+Write a ‘C’ program to reverse the given string using stack. Find out time complexity of program
+Write an algorithm to search a given student's name in an array of student names using Binary search
+Explain the representation of polynomial using linked list with an example
+Write a function to create a doubly linked list (DLL) and add an element in the middle of DLL
+Write functions to delete and insert the last element in a circular linked list
+Given an array containing the digits 71808294, show how the order of the digits changes during each step of [a] insertion sort, [b] selection sort, [c] merge sort, [d] quick sort (using the array-based quick sort, and always choosing the last element of any subarray to be the pivot), and [e] heapsort (using the backward min-heap ).  Show the array after each swap, except in insertion sort.  For insertion sort, show the array after each insertion
+Some sorting methods, like heap sort and array-based quick sort, are not naturally stable.  Suggest a way to make any sorting algorithm stable by extending the keys (making them longer and adding extra information)
+Consider the graph at right. In what order are the vertices visited using DFS starting from vertex a?  Where a choice exists, use alphabetical order.  What if you use BFS?
+Consider the graph at right.A vertex x is "finished" when the recursive call DFS(x) terminates.  In what order are the vertices finished?  (This is different from the order in which they are visited, when DFS(x) is called
+Consider the graph at right. In what order are edges added to the minimum spanning tree by Kruskal's algorithm?  List the edges by giving their endpoints
+How long does it take to determine if an undirected graph contains a vertex that is connected to no other vertex [i] if you use an adjacency matrix; [ii] if you use an adjacency list
+If there are two different simple paths by which we can get from one vertex to another. Using breadth-first search (not DFS), how can we tell if an undirected graph contains a cycle?
+Recall that an undirected graph is "connected" if there is a path from any vertex to any other vertex. If an undirected graph is not connected, it has multiple connected components. A "connected component" consists of all the vertices reachable from a given vertex, and the edges incident on those vertices.  Suggest an algorithm based on DFS (possibly multiple invocations of DFS) that counts the number of connected components in a graph
+What does the splay tree at right look like after: [a]  max() [the operation that finds the maximum item]  [b]  insert(4.5)| Start from the _original_ tree, [c]  find(10) not the tree resulting from the previous operation. [d]  remove
+Suggest a sequence of insertion operations  that would create the binary tree at right
+Suppose an application uses only three operations:  insert(), find(), and remove(). [a]  Under what circumstances would you use a splay tree instead of a hash table? [b] Under what circumstances would you use a 2-3-4 tree instead of a splay tree? [c] Under what circumstances would you use an unordered array instead of a 2-3-4 tree? [d]  Under what circumstances would you use a binary heap instead of an unordered array? [e]  Under what circumstances would you use a hash table instead of a binary heap?
+Suppose that while your computer is sorting an array of objects, its  memory is struck by a cosmic ray that changes exactly one of the keys to something completely different.  For each of the following sorting algorithms, what is the _worst-case_ possibility?  For each, answer  [x] the final array won't even be close to sorted, [y] the final array will have just one or two keys out of place, or [z] the final array will consist of two separate sorted subsets, one following the other, plus perhaps one or two additional keys out of place. [a]  Insertion sort [b]  Selection sort  [c]  Mergesort  [d]  Radix sort
+How many number of distinct minimum spanning trees is there for for the weighted graph below?
+Consider the following rooted tree with the vertex P labelled as root The order in which the nodes are visited during inorder traversal is
+The stock span problem is a financial problem where we have a series of n daily price quotes for a stock. calculate span of stock’s price for all n days.(stack)
+Given an array, print the Next Greater Element (NGE) for every element. The Next greater Element for an element x is the first greater element on the right side of x in array.(stack)
+Given an expression string exp, write a program to examine whether the pairs and the orders oo“{“,”}”,”(“,”)”,”[“,”]” are correct in exp (stack)
+Check whether a given binary tree is heap?
+How to check if a given array represents a Binary Heap?
+Given an infinite stream of integers, find the k’th largest element at any point of time (heap)
+Given an array and a number k where k is smaller than size of array, we need to find the k’th smallest element in the given array.(heap)
+Given an n x n matrix, where every row and column is sorted in non-decreasing order. Print all elements of matrix in sorted order
+Given k sorted arrays of size n each, merge them and print the sorted output
+Check if removing an edge can divide a Binary Tree in two halves
+Construct a Binary Search Tree from given postorder
+The minimum number of arithmetic operations required to evaluate the polynomial P(X) = X5 + 4X3 + 6X + 5 for a given value of X using only one temporary variable
+You have an array of n elements. Suppose you implement quick sort by always choosing the central element of the array as the pivot. What is the tightest upper bound for the worst case performance is
+Given two binary arrays arr1[] and arr2[] of same size n. Find length of the longest common span (i, j) where j >= i such that arr1[i] + arr1[i+1] + …. + arr1[j] = arr2[i] + arr2[i+1] + …. + arr2[j]
+Given two linked lists sorted in increasing order. Merge them such a way that the result list is in decreasing order (reverse order)
+Given two linked lists, represented as linked lists (every character is a node in linked list). Write a function compare() that works similar to strcmp(), i.e., it returns 0 if both strings are same, 1 if first linked list is lexicographically greater, and -1 if second string is lexicographically greater
+Given a singly linked list, select a random node from linked list (the probability of picking a node should be 1/N if there are N nodes in list). You are given a random number generator
+Given a doubly linked list, write a function to sort the doubly linked list in increasing order using merge sort
+Write a typical recursive implementation of Quick Sort for arrays. The implementation uses last element as pivot
+Check if a given array can represent Preorder Traversal of Binary Search Tree.

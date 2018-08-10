@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1482341633143" name="duplicate:http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K" uri="final.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1482341633143" name="duplicate:http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K" uri="root-ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1482341633143" name="shadowed:http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K" uri="Trainer/a/final.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1482341633143" name="shadowed:http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K" uri="Trainer/GameData/final.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1482341633143" name="shadowed:http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K" uri="backup/final.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1482341633143" name="shadowed:http://webprotege.stanford.edu/project/9pii0r8JQSa84LqX6vUD3K" uri="backup/root-ontology.owl"/>
+    </group>
+</catalog>

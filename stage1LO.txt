@@ -1,0 +1,14 @@
+Implement various operations on stacks.
+Model a given data structure as ADT.
+Construct a queue and perform modify, insert and delete operations on it.
+Perform preorder, inorder and postorder traversal on trees.
+Construct a binary tree and perform modify, insert and delete operations on it.
+Implement various sorting techniques.
+Compare the performances of various data structures 
+Write programs that use different data structures.
+Evaluate the expression given in infix, prefix and postfix forms.
+Implement the Huffman coding algorithm using binary tree.
+Explain the working of different multiway search tree structures.
+Implement various searching techniques.
+Implement hash search, including collision avoidance an collision resolution techniques.
+Implement Depth First Search and Breadth First Search operations on Graph.

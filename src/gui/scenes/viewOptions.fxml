@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="gui.controllers.ViewOptionsController">
+   <children>
+      <VBox>
+         <children>
+            <Button minWidth="100.0" mnemonicParsing="false" onAction="#openIAO" text="AI - Alignment View">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="30.0" right="30.0" top="15.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" minWidth="100.0" onAction="#openReport"  mnemonicParsing="false" text="Quality Report">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="30.0" right="30.0" top="15.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>            
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

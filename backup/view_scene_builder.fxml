@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+  <children>
+    <SplitPane dividerPositions="0.5" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <items>
+            <VBox minHeight="700.0" minWidth="200.0" prefHeight="700.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="computeBtn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefWidth="130.0" text="Compute">
+                     <VBox.margin>
+                        <Insets left="35.0" top="500.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="writeBtn" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" prefWidth="130.0" text="Write Graph State">
+                     <VBox.margin>
+                        <Insets left="35.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="relationToggle" mnemonicParsing="false" prefWidth="130.0" text="Hide Relations">
+                     <VBox.margin>
+                        <Insets left="35.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox fx:id="questionVBox" minHeight="700.0" minWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" />
+      </items>
+    </SplitPane>
+  </children>
+</VBox>

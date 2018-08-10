@@ -1,0 +1,7 @@
+Compare the performances of various data structures
+Implement various sorting techniques.
+Write programs that use different data structures.
+Model a given data structure as ADT.
+Implement various operations on data structures.
+Explain the working of different multiway search tree structures.
+Demonstrate and implement different methods for traversing data structures.

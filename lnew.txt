@@ -1,0 +1,3 @@
+Demonstrate and implement the concept of arrays and linked list
+Demonstrate and implement the concept of stacks and queues
+Apply the concept of arrays and linked list to stacks and queues

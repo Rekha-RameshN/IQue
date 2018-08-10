@@ -1,0 +1,18 @@
+Construct, delete, push, pop values on stacks.
+Construct, delete, push, pop values on queues.
+Construct and delete nodes, display the contents of nodes 
+Create singly-linked and doubly-linked lists using nodes and traverse through them.
+Construct, modify, insert and delete nodes in a binary tree, 
+Perform pre-order, in-order and post-order ‘traversal on binary tree. 
+Construct, modify, insert and delete nodes in a binary search tree 
+Perform pre-order, in-order and post-order traversal on the binary search tree. 
+Construct, modify, insert and delete nodes in a B-tree
+Perform pre-order, in-order and post-order traversal on the B-tree
+Construct, modify, insert and delete nodes in a heap
+Perform pre-order, in-order and post-order traversal on the heap
+Understand the working of multi-way search tree structures.
+Implement the Huffman coding algorithm using binary tree.
+Represent graphs in different forms including adjacency lists and adjacency matrices. 
+Implement sorting techniques including bubble, insertion, selection, merge, quick, heap sort. 
+Implement searching techniques including linear, binary and hashing.
+Implement hash tables, including collision avoidance and resolution.

@@ -1,0 +1,7 @@
+Discuss Binary search trees. Insert the following elements into a Binary search tree: 27  23 25 29 35 33 39
+Write and explain algorithm to delete node from Binary tree
+List and explain in brief applications of binary tree
+Check if removing an edge can divide a Binary Tree in two halves
+Check whether a given binary tree is heap
+Write non-recursive algorithm for traversal of binary tree
+Construct the Huffman tree and determine the code for the following characters whose frequencies are given

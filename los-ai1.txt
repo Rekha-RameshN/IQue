@@ -1,0 +1,5 @@
+Create a binary tree for a given data set
+Insert and delete nodes in a binary tree
+Perform pre-order, in-order and post-order traversal on the binary tree. 
+Give applications of Binary tree
+Demonstrate and implement the applications of Binary tree

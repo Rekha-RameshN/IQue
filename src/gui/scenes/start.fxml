@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="gui.controllers.StartController"
+        prefWidth="300.0">
+   <children>
+      <HBox layoutX="23.0" layoutY="23.0" spacing="10.0">
+         <children>
+            <Label text="Add LOs">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <Label fx:id="loFileLabel" HBox.hgrow="ALWAYS" />
+            <Button fx:id="lo" mnemonicParsing="false" onAction="#loButtonClicked" text="Choose File" />
+         </children>
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="15.0" layoutY="15.0" spacing="10.0">
+         <children>
+            <Label text="Add Questions">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <Label fx:id="qFileLabel" HBox.hgrow="ALWAYS" />
+            <Button fx:id="questions" mnemonicParsing="false" onAction="#questionsButtonClicked" text="Choose File" />
+         </children>
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <!--<HBox>
+         <children>
+            <CheckBox fx:id="editLO" mnemonicParsing="false" onAction="#editLoToggle" text="Edit Learning Objective">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin></CheckBox>
+            <CheckBox fx:id="editQuestions" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#editQToggle" selected="true" text="Edit Questions">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </CheckBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>-->
+      <HBox layoutX="15.0" layoutY="15.0" spacing="10.0">
+         <children>
+            <Label text="Add Ontology">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <Label fx:id="owlFileLabel" HBox.hgrow="ALWAYS" />
+            <Button fx:id="ontology" mnemonicParsing="false" onAction="#ontologyButtonClicked" text="Choose File" />
+         </children>
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox spacing="5.0">
+         <children>
+            <Region HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#loadPreviousFiles" text="Load Previous Files" />
+            <Button fx:id="next" alignment="CENTER" mnemonicParsing="false" onAction="#nextButtonClicked" onMouseClicked="#nextButtonClicked" text="Next" />
+            <Region HBox.hgrow="ALWAYS" />
+         </children>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </HBox>
+      <Separator prefWidth="200.0" />
+      <HBox spacing="5.0" VBox.vgrow="NEVER">
+         <children>
+            <Label fx:id="statusBar" text="Status Bar" />
+            <CheckBox fx:id="isAdmin"/>            
+         </children>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>
